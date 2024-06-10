@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph's Tribe - Asset Management</title>
+    <style>
+        /* Add some modern styles to make the page look more appealing */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            border-bottom: 2px solid #333;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        nav a:hover {
+            color: #ccc;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 0.5em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 0.5em 0;
+            border-bottom: 1px solid #eee;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 0.25em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joseph's Tribe - Asset Management</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Expert Asset Management Solutions</h2>
+        <p>Discover how our expertise can help you achieve your financial goals.</p>
+        <section>
+            <h3>Our Services</h3>
+            <ul>
+                <li>Asset Management</li>
+                <li>Financial Planning</li>
+                <li>Investment Strategies</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Why Choose Us</h3>
+            <ul>
+                <li>Expertise</li>
+                <li>Personalized Service</li>
+                <li>Proven Track Record</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Get Started</h3>
+            <button>Contact Us</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Joseph's Tribe - Asset Management</p>
+    </footer>
+</body>
+</html>
